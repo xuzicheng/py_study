@@ -1,0 +1,11 @@
+1. 创建爬虫的項目  scrapy startproject 项目的名字
+                 注意：項目的名字不允汻使用数字开也不能包含中文
+2.創建爬虫文件
+                要在spiders文件夹中去创建爬虫文件
+                cd 项目的名字\项目的名字\spiders
+
+                创建爬虫文件
+                scrapy genspider 爬虫文件的名字 要爬取网页
+
+3 运行爬虫代码
+                scrapy crawl 爬虫的名字

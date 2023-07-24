@@ -1,0 +1,19 @@
+1.scrapy项目结构
+    项目名字
+        项目名字
+            spiders（存储的是爬虫文件）
+                init
+                自定义爬虫文件   核心文件
+            init
+            items       定义数据结构的地方  爬取的数据包含哪些
+            middleware  中间件            代理
+            pipelines   管道              用来处理下载的数据
+            settings    配置文件   ua robots
+
+2.response属性和方法
+    response.text获取响应的字符串
+    response.body获取二进制数据
+    response.xpath 可以直接是xpath方法来解析response中的内容
+    response.extract(）提取seletor对象的data厲性值
+    response.extract_first(）提取的seletor列表的第一个数据
+
